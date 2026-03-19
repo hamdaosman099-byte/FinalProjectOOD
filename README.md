@@ -22,9 +22,9 @@ The project is designed to demostrate the following: architeture, responsibility
 
 ### Projects management
 >Create Products:
->>Name
->>Category
->>Estimated lifespan
->>One of more materials
+    Name
+    Category
+    Estimated lifespan
+    One of more materials
 >List products
->Show detailef product information
+>Show detailed product information
