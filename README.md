@@ -11,9 +11,20 @@ This projects is a structured menu driven console application that will manage p
 
 The project is designed to demostrate the following: architeture, responsibility destribution, testability, documentation, and professtional delvepment workflow.
 
-# TEAM
+# Team
 | Name   | Role |
 |------  |------|
 |Angela  |      |
 |Makram  |      |
 |Hamda   |      |
+
+## Project Requirements
+
+### Projects management
+>Create Products:
+>>Name
+>>Category
+>>Estimated lifespan
+>>One of more materials
+>List products
+>Show detailef product information
