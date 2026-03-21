@@ -10,9 +10,11 @@ Ett konsolbaserat program som hanterar produkter och material, beräknar miljöp
 
 ## Group members and roles
 | Namn | Roll |
-|-------|-------|-------|
+
 | Angela | Kravanalys   | Kravdokumentation, testning, acceptance criteria |
+
 | Makram | Domänmodell  | UML-diagram, klassdesign, domänlogik |
+
 | Hamda  | Git-ansvarig | Versionshantering, branch-strategi, CI-konfiguration |
 
 ## Working process and Git flow
