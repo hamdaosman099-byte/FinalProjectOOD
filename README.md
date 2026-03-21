@@ -3,28 +3,46 @@
 > Couse: DA121A - Object-Oriented Design
 >
 
+# Sustainable Product & Recycling Management System
+
 ## Project description
+Ett konsolbaserat program som hanterar produkter och material, beräknar miljöpåverkan och ger återvinningsråd.
 
-This projects is a structured menu driven console application that will manage products and reusable materials, calulates emviromental impact and propvides recyling guidance.
+## Group members and roles
+| Namn | Roll |
+|-------|-------|-------|
+| Angela | Kravanalys   | Kravdokumentation, testning, acceptance criteria |
+| Makram | Domänmodell  | UML-diagram, klassdesign, domänlogik |
+| Hamda  | Git-ansvarig | Versionshantering, branch-strategi, CI-konfiguration |
 
-## Projects aims to demostrate
+## Working process and Git flow
+- main-branch är skyddad
+- Allt arbete sker i feature branches (t.ex. `feature/readme-setup`)
+- Commits är små och fokuserade
+- Merges sker via pull requests
 
-The project is designed to demostrate the following: architeture, responsibility destribution, testability, documentation, and professtional delvepment workflow.
+## Domain concepts (candidate concepts)
+- **Product** - produkt med namn, kategori, livslängd och material
+- **Material** - material med miljöpåverkan och återvinningsråd
+- **Category** - produktkategori
+- **Lifespan** - beräknad livslängd
+- **ImpactCalculationStrategy** - strategi för miljöberäkning
 
-# Team
-| Name   | Role |
-|------  |------|
-|Angela  |      |
-|Makram  |      |
-|Hamda   |      |
+## Functional requirements
+1. Skapa produkter med namn, kategori, livslängd och material
+2. Lista produkter
+3. Visa detaljerad produktinformation
+4. Definiera material med namn, miljöpåverkan och återvinningsråd
+5. Material ska kunna återanvändas i flera produkter
+6. Beräkna total miljöpåverkan
+7. Minst två utbytbara beräkningsstrategier
+8. Ge återvinningsråd baserat på material
 
-## Project Requirements
-
-### Projects management
->Create Products:
-    Name
-    Category
-    Estimated lifespan
-    One of more materials
->List products
->Show detailed product information
+## Non-functional requirements
+1. Lagerarkitektur (Presentation, Application, Domain)
+2. Separation mellan UI och affärslogik
+3. Strategy Pattern implementerad
+4. JUnit-tester för domänlogik
+5. CI med automatiska tester
+6. Professionell Git-workflow
+7. Dokumentation med UML-diagram
