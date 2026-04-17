@@ -1,4 +1,12 @@
 package main.java.domain;
 public class Material {
-    // TODO: implementera  
+    private String name;
+    private double impactValue;
+    private String recyclingCategory;
+    private String recyclingInstruction;
+
+    public String getRecyclingGuidence(){
+        
+    }
+
 }
