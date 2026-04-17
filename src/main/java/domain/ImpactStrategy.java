@@ -1,5 +1,5 @@
 package domain;
 
 public interface ImpactStrategy {
-    // TODO: implementera senare
+    // TODO: implementera senar
 }

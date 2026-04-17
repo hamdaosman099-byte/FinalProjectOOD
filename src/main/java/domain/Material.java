@@ -1,5 +1,5 @@
 package domain;
 
 public class Material {
-    // TODO: implementera senare
+    // TODO: implementera  
 }
