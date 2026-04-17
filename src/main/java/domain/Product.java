@@ -1,5 +1,4 @@
-package domain;
-
+package main.java.domain;
 public class Product {
     // TODO: implementera senare
 }
