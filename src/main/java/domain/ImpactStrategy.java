@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public interface ImpactStrategy {
     double calculateImpact(Product product);

@@ -1,8 +1,8 @@
-package main.java.application;
+package application;
 
-import main.java.domain.Product;
-import main.java.domain.Material;
-import main.java.domain.ImpactStrategy;
+import domain.Product;
+import domain.Material;
+import domain.ImpactStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
