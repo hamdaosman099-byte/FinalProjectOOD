@@ -11,7 +11,7 @@ public class Menu {
     }
  
     public void showMenu() {
-        System.out.println("\n=== HÅLLBART PRODUKTSYSTEM ===");
+        System.out.println("HÅLLBART PRODUKTSYSTEM");
         System.out.println("1. Skapa produkt");
         System.out.println("2. Lista produkter");
         System.out.println("3. Visa produktdetaljer");
