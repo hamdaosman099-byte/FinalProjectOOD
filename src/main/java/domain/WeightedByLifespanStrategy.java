@@ -1,6 +1,5 @@
 package domain;
 
-
 public class WeightedByLifespanStrategy implements ImpactStrategy {
     @Override
     public double calculateImpact(Product product) {
