@@ -48,3 +48,6 @@ Ett konsolbaserat program som hanterar produkter och material, beräknar miljöp
 5. CI med automatiska tester
 6. Professionell Git-workflow
 7. Dokumentation med UML-diagram
+
+## CODE info
+### We use the Strategy pattern to allow flexible calculation of environmental impact. Different strategies can be swapped without changing the core system, making the design more maintainable and extensible
