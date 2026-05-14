@@ -1,0 +1,9 @@
+domain\ImpactStrategy.class
+application\Main.class
+domain\WeightedByLifespanStrategy.class
+application\ProductService.class
+domain\SimpleSumStrategy.class
+domain\Material.class
+presentation\Menu.class
+domain\Product.class
+presentation\ConsoleUI.class

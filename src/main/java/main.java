@@ -1,3 +1,4 @@
+package application;
 import presentation.ConsoleUI;
  
 public class Main {
