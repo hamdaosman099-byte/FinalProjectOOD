@@ -92,7 +92,7 @@ public class ConsoleUI {
 
         System.out.println("Namn: " + p.getName());
         System.out.println("Kategori: " + p.getCategory());
-        System.out.println("Livslängd: " + p.getLifespan());
+        System.out.println("Livslängd: " + p.getEstimatedLifespan());
     }
 
     private void calculateImpact() {
