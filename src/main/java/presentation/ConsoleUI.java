@@ -46,6 +46,7 @@ public class ConsoleUI {
                 break;
             default: System.out.println("Ogiltigt val.");
         }
+    }
     private void createProduct() {
         System.out.print("Produktnamn: ");
         String name = scanner.nextLine();
@@ -90,7 +91,7 @@ public class ConsoleUI {
                 }
             }
         }
-    }
+    
 
     }
     private void calculateImpact() {
