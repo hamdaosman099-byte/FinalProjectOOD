@@ -8,14 +8,21 @@
 ## Project description
 Ett konsolbaserat program som hanterar produkter och material, beräknar miljöpåverkan och ger återvinningsråd.
 
+## Architecture
+
+Systemet är uppdelat i tre lager:
+
+- **Presentation layer**: Hanterar användarinteraktion (ConsoleUI, Menu)
+- **Application layer**: Koordinerar logik och flöde (ProductService)
+- **Domain layer**: Innehåller affärslogik (Product, Material, Strategy)
+
+Detta minskar koppling mellan delar och gör systemet lättare att underhålla.
+
 ## Group members and roles
-| Namn | Roll | Ansvar |
-
-| Angela | Kravanalys | Kravdokumentation, testning, acceptance criteria |
-
-| Makram | Domänmodell | UML-diagram, klassdesign, domänlogik |
-
-| Hamda | Git-ansvarig | Versionshantering, branch-strategi, CI-konfiguration |
+| Namn   | Roll         | Ansvar                                   |
+|--------|--------------|------------------------------------------|
+| Angela | Kravanalys   | Kravdokumentation, testning, acceptance criteria |
+| Hamda  | Git-ansvarig | Versionshantering, branch-strategi, CI-konfiguration |
 
 ## Working process and Git flow
 - main-branch är skyddad
@@ -48,6 +55,18 @@ Ett konsolbaserat program som hanterar produkter och material, beräknar miljöp
 5. CI med automatiska tester
 6. Professionell Git-workflow
 7. Dokumentation med UML-diagram
+
+## Testing
+
+JUnit-tester har implementerats för domänlogik, särskilt för beräkning av miljöpåverkan.
+
+Testerna täcker:
+- Flera material (normalfall)
+- Tom produkt
+- Ett material
+
+Alla tester körs med Maven (`mvn test`) och måste passera innan merge.
+
 
 ## CODE info
 ### We use the Strategy pattern to allow flexible calculation of environmental impact. Different strategies can be swapped without changing the core system, making the design more maintainable and extensible
