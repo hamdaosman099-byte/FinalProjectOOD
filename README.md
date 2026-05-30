@@ -8,6 +8,14 @@
 ## Projektbeskrivning
 Ett konsolbaserat Java-progrema för att hantera produkter och material, beräkna miljöpåverkan och ge återvinningsråd. Systemet är buggt med lagerarkitektur och implementerar Stratergy-designmönstret för att möjliggöra flexibla och utbytbara beräkningmetoder.
 
+## How to run
+
+1. Öppna projektet i terminalen
+2. Skriv:
+   mvn compile
+3. Kör sedan:
+   mvn exec:java
+
 ## Group members and roles
 | Namn | Roll | Ansvar |
 
