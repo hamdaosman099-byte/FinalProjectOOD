@@ -13,7 +13,7 @@ Systemet är byggt med lagerarkitektur och implementerar Strategy-designmönstre
 2. Skriv:
    mvn compile
 3. Kör sedan:
-   mvn exec:java
+   mvn exec:java "-Dexec.mainClass=application.Main"
 
 ## Group members and roles
 | Namn   | Roll         | Ansvar                                   |
