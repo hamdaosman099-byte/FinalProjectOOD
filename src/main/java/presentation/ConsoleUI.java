@@ -5,7 +5,7 @@ import domain.Product;
 import domain.Material;
 import domain.SimpleSumStrategy;
 import domain.WeightedByLifespanStrategy;
-import presentaton.Menu;
+import presentation.Menu;
 
 import java.util.Scanner;
 import java.util.List;
